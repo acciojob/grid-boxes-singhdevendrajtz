@@ -19,7 +19,7 @@
 }
 #grid>.item_2{
 	background-color:green;
-	grid-row:span 5;
+	grid-row:span 4;
 	margin:2px;
 	color:white;
 	
