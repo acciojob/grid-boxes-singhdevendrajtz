@@ -32,13 +32,13 @@
 }
 #grid>.item_4{
 	background-color:green;
-	grid-area:2/3/2/5;
+	grid-column:span 2;
 	margin:2px;
 	color:white;
 }
 #grid>.item_5{
 	background-color:green;
-	grid-area:3/2/3/4;
+	grid-column:span 2;
 	margin:2px;
 	color:white;
 	
@@ -72,7 +72,7 @@
 }
 #grid>.item_10{
 	background-color:green;
-	grid-area:5/2/5/5;
+	grid-column:span 3;
 	margin:2px;
 	color:white;
 	
