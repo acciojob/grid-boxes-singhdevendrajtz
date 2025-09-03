@@ -1,1 +1,70 @@
 /*  your css code here. If applicable */
+#grid{
+	
+	display:grid;
+	grid-template-columns:repeat(5,120px);
+	grid-template-rows:repeat(5,60px);
+
+	
+}
+
+#grid>.item_1{
+	background-color:green;
+	grid-area:1/1/1/5;
+	margin:2px;
+	
+}
+#grid>.item_2{
+	background-color:green;
+	grid-area:2/1/6/2;
+	margin:2px;
+	
+}
+#grid>.item_3{
+	background-color:green;
+	grid-area:2/2/2/3;
+	margin:2px;
+	
+}
+#grid>.item_4{
+	background-color:green;
+	grid-area:2/3/2/5;
+	margin:2px;
+	
+}
+#grid>.item_5{
+	background-color:green;
+	grid-area:3/2/3/4;
+	margin:2px;
+	
+}
+#grid>.item_6{
+	background-color:green;
+	grid-area:3/4/4/5;
+	margin:2px;
+	
+}
+#grid>.item_7{
+	background-color:green;
+	grid-area:4/2/4/3;
+	margin:2px;
+	
+}
+#grid>.item_8{
+	background-color:green;
+	grid-area:4/3/4/4;
+	margin:2px;
+	
+}
+#grid>.item_9{
+	background-color:green;
+	grid-area:4/4/4/5;
+	margin:2px;
+	
+}
+#grid>.item_10{
+	background-color:green;
+	grid-area:5/2/5/5;
+	margin:2px;
+	
+}
