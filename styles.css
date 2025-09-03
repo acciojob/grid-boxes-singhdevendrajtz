@@ -12,14 +12,14 @@
 
 #grid>.item_1{
 	background-color:green;
-	grid-area:1/1/1/4;
+	grid-column: span 4;
 	margin:2px;
 	color:white;
 	
 }
 #grid>.item_2{
 	background-color:green;
-	grid-area:2/1/6/1;
+	grid-row:span 5;
 	margin:2px;
 	color:white;
 	
